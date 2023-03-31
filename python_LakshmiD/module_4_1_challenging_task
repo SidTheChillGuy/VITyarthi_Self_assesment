@@ -1,0 +1,48 @@
+# SidTheChillGuy
+
+# challenge 1
+a, b, z = map(int, input("Enter cost, interior decoration, selling price: ").split())
+# Sample input:
+# Enter cost, interior dcoration, selling price: 1000000 10000 5000000
+
+# profit = selling price - cost price
+# profit percentage = (Profit / CP) * 100
+profit = z - (a + b)
+profitpercent = ((profit / (a + b) * 100))
+print('The profit is: %.2f ' % profitpercent)
+# Sample output:
+# The profit is: 395.05
+
+# end
+print('')
+
+# challenge 2
+input_two = int(input('Enter units: '))
+hour = input_two // 3600
+minute = (input_two % 3600) // 60
+second = input_two % 60
+print('Hours: ', hour)
+print('Minutes: ', minute)
+print('Seconds: ', second)
+# end
+print(' ')
+
+# challenge 3
+print('Enter integerss for distance and time')
+d = int(input(''))
+t = int(input(''))
+speed = d / t
+print('The speed of the car in Km/hr is: ', speed)
+# end
+print(' ')
+
+# challange 4
+print('Enter two integers for width and height')
+width = int(input('Enter width: '))
+height = int(input('Enter height: '))
+
+third_side = pow((pow(width, 2) + pow(height, 2)), 0.5)
+
+print('The third of the triangle is:%.2f' % third_side)
+print('Area of the right angled triangle is:', (0.5 * width * height))
+# end
