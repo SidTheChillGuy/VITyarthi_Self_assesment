@@ -1,0 +1,56 @@
+# SidTheChillGuy
+
+# Challenge 1
+print(round((66+77+88+99+55)/5))
+# out 77
+print(' ')
+
+# challenge 2
+print(round((30*(9/5)+32)))
+# out 86
+print(' ')
+
+# challenge 3
+a = 150
+b = 270
+
+a = a + b
+b = a - b
+a = a - b
+print('a =', a)
+print('b =', b)
+# end
+print(' ')
+
+# challenge 4
+a = 150
+b = 270
+a ^= b
+b ^= a
+a ^= b
+print('a =', a)
+print('b =', b)
+# end
+print(' ')
+
+# challenge 5
+a = 100
+if (a % 2) == 0:
+    print('The number is even')
+else:
+    print('The number is odd')
+# end
+print(' ')
+
+# challenge 6
+print(256 % 10)
+# end
+print(' ')
+
+# challenge 7
+if (255 % 5) == 0:
+    print('The number is divisible by 5')
+else:
+    print('The number is not divisible by 5')
+# end
+print(' ')
