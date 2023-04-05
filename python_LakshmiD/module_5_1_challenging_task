@@ -1,0 +1,40 @@
+# SidTheChillGuy
+
+# challenge 1
+a = int(input("enter a: "))
+b = int(input("enter b: "))
+if (a & b >= 1) | (a ^ b <= 1):
+    print("I win the game")
+else:
+    print("I lose the game")
+
+# value of a can be 2 or 3
+# value of b can be 3 or 3 respectiverly
+# end
+print("")
+
+# challenge 2
+
+a = int(input("enter a: "))
+b = int(input("enter b: "))
+if (a & b >= 1) | (a ^ b <= 1):
+    print("I win the game")
+else:
+    print("I lose the game")
+
+# value of a can be 2 or 3
+# value of b can be 3 or 3 respectiverly
+
+'''Here, for the game to be won the values of A and B can be equal or (2,3) and (3,3). 
+First it will calculate both paranthesis in LTR order
+a & b >= 1 OR a ^ b <= 1
+Assume input is 2,3
+True or True
+True
+win the game
+
+similarly
+assume input is 4,6
+True or false
+true
+win the game'''
