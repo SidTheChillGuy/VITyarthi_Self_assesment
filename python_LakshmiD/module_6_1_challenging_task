@@ -1,0 +1,25 @@
+# SidTheChillGuy
+
+a = 2
+b = 12
+c = 1
+d = a < b > c-1
+d = 2 < 12 > 1-1
+d = 2 < 12 > 0
+d = 1 > 0
+print(d)
+
+''' the output of given program will be "True"
+The current program has three integer values assigned to three variables
+in variable d, the RHS is a set of operations that compare the value
+a < b > c - 1
+substituting the values in variables
+2 < 12 > 1-1
+applying orders of precedence
+2 < 12 > 0
+this is true
+
+1 > 0
+this is also true
+
+hence the output is a boolean, True'''
