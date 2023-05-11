@@ -1,0 +1,49 @@
+# SidTheChillGuy
+
+# task 1
+# :-P
+print('')
+
+# task 2
+data = {"Sunny": 25000, "Ravi": 23000, "Vijay": 26000, "messi": 30000}
+a = input("enter the name to delete it from the data : ")
+del data[a]
+print("list has been updated")
+print(data)
+print('')
+# task 3
+data = {100: 1, 101: 2, 102: 3, 103: 4, 104: 5}
+a = int(input("enter the key to check in the list :"))
+if a in data.keys():
+    print("yes")
+print('')
+
+# task 4
+marks = {100: 90, 101: 91, 102: 80, 103: 82,
+         104: 75, 105: 56, 106: 98, 107: 33}
+mrk = marks.values()
+sum = 0
+for i in mrk:
+    sum = sum+i
+c = sum/len(mrk)
+print("the mean of the data", c)
+print("the standard deviation is: ")
+print('')
+
+# task 5
+a = input("enter your words :").split()  # add input item in list
+z = []
+for i in a:
+    y = len(i)
+    z.append(y)
+k = z.index(max(z))
+print(a[k])
+print('')
+
+# task 6
+marks = {100: 90, 101: 91, 102: 80, 103: 82,
+         104: 75, 105: 56, 106: 98, 107: 33}
+a = int(input("enter the key to delete :"))
+del marks[a]
+print("key deleted successfully")
+print(marks)
